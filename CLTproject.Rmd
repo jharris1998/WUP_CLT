@@ -83,10 +83,7 @@ p + ggtitle("n = 9") +
 print(paste('mean = ', mean(my1000$k9),' sd = ',sd(my1000$k9)))
 ```
 
-From my observation when you change the number and knit it gives a different graph. It also gives me the value of the standard deviation. It was 41.7267551709583 the first time and I expect this number to be half of the print. k9 is less than half of k2. 
-```{r}
-print(paste('mean = ', mean(my1000$k9),' sd = ',sd(my1000$k9)))
-```
+From my observation when you change the number and knit it gives a different graph. It also gives me the value of the standard deviation. It was 41.7267551709583 the first time and I expect this number to be half of the print. print(paste( " sd = ",sd(my1000$k9))) is less than half of the k2.
 
 
 

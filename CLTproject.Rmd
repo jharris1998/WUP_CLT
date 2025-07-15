@@ -84,7 +84,9 @@ print(paste('mean = ', mean(my1000$k4),' sd = ',sd(my1000$k4)))
 ```
 
 From my observation when you chage the number and kniut it gives a dfferent graph. It also gives me the value of the standard deviation. It was 41.7267551709583 the first time and I expect this number to be half of the print. k9 is less than half of k2
-
+```{r}
+print(paste('mean = ', mean(my1000$k9),' sd = ',sd(my1000$k9)))
+```
 
 ### In this case the stdev was cut in half because the sample size was four. This is what the central limit theorem says. There are also 5 peaks. They go from FFFF,to FFFM, to FFMM to FMMM and finally MMMM.
 

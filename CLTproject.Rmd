@@ -129,6 +129,8 @@ xlab("temperature") + ylab("density")
 print(paste('mean = ', mean(my1000$k25),' sd = ',sd(my1000$k25)))
 ```
 
+The mean is still close to 50 and the standard deviation has decreased to be approximately 8. A predicted standard deviation using sqrt(25) gives us about 8.276 which is still close for the approximate value of 8. The graph is starting to look more similar on the sides but the tip at around 50 does stand out more often with different data.
+
 ## We expect the sample mean to be close to population and the standev to get smaller by the ratio of one to the sample size. In this case 1/sqrt(2)
 
 ### There are 3 peaks in the density plot. You pick two people you can get MM,MF.FM,or FF. these are all equally likey so the little peak on left is all the FF's while the little peak on the right is all the MM's so the big one in the middle is both the MF and FM in the same bag so-to-speak.  
